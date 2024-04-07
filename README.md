@@ -111,7 +111,7 @@ The results show that with the implementation of the program, the mortality will
 
 This mortality saving can be projected into the future (20-year projection), using linear regression to project new policyholders and mortality projections given in the mortality table. As shown in Appendix L, SuperLife, using our intervention program will still maintain a positive mortality saving to an even greater extent, due to higher numbers of policyholders resulting in more savings from intervention reducing mortality costs by 17.4% average annually. [[calculations](<mortality cost payout projection & sensitivity test.xlsx>)]
 
-### Premium Pricing [[calculations](<Cost Savings Manjot.xlsx>)
+### Premium Pricing [[calculations](<Cost Savings Manjot.xlsx>)]
 To calculate the economic benefits of the proposed product, the policyholders were split into four groups, which were:
 1. Non-smokers, whole life
 2. Non-smokers, 20-year term
@@ -175,11 +175,11 @@ As the program expand out into a digital space and SuperLife is collecting more 
 
 # References
 References
-Centers for Disease Control and Prevention (2020). Smoking Cessation: Fast Facts. [online] Centers for Disease Control and Prevention. Available at: https://www.cdc.gov/tobacco/data_statistics/fact_sheets/cessation/smoking-cessation-fastfacts/index.html.
+Centers for Disease Control and Prevention (2020). Smoking Cessation: Fast Facts. [online] Centers for Disease Control and Prevention. Available at: https://www.cdc.gov/tobacco/data_statistics/fact_sheets/cessation/smoking-cessation-fast-facts/index.html.
 
 Francis, D. (2002). Why do Death Rates Decline? [online] NBER. Available at: https://www.nber.org/digest/mar02/why-do-death-rates-decline.
 
-Kunz, R. (2022). The ideal profit margin for an independent insurance agency. [online] www.siaaz.com. Available at: https://www.siaaz.com/blog/ideal-profit-margin-independentinsurance-agency#:~:text=Taking%20these%20factors%20into%20consideration.
+Kunz, R. (2022). The ideal profit margin for an independent insurance agency. [online] www.siaaz.com. Available at: https://www.siaaz.com/blog/ideal-profit-margin-independent-insurance-agency#:~:text=Taking%20these%20factors%20into%20consideration.
 
 Life Insurance Direct Australia. (2024). Seniors Life Insurance in Australia. [online] Available at: https://www.lifeinsurancedirect.com.au/life-insurance/guides/seniors/
 
@@ -187,15 +187,15 @@ Martin, A. (2023). What Is The Age Limit For Life Insurance In 2024? [online] Ch
 
 Rabbi, A.M.F. and Mazzuco, S. (2020). Mortality Forecasting with the Lee–Carter Method: Adjusting for Smoothing and Lifespan Disparity. European Journal of Population. doi:https://doi.org/10.1007/s10680-020-09559-9.
 
-Rising inflation and interest rates negatively impacted insurers’ underwriting and investment performance in 2022. (n.d.). Available at: https://www.oecd.org/daf/fin/privatepensions/GIMT-Preliminary-2022.pdf.
+Rising inflation and interest rates negatively impacted insurers’ underwriting and investment performance in 2022. (n.d.). Available at: https://www.oecd.org/daf/fin/private-pensions/GIMT-Preliminary-2022.pdf.
 
-Roberts-Grey, G. (2022). Life Insurance: How Much Does Age Raise Your Rate? [online] Investopedia. Available at: https://www.investopedia.com/articles/personalfinance/022615/how-age-affects-life-insurance-rates.asp.
+Roberts-Grey, G. (2022). Life Insurance: How Much Does Age Raise Your Rate? [online] Investopedia. Available at: https://www.investopedia.com/articles/personal-finance/022615/how-age-affects-life-insurance-rates.asp.
 
 stats.oecd.org. (n.d.). Gross claims payments. [online] Available at: https://stats.oecd.org/Index.aspx?DataSetCode=PT7
 
 www.scirp.org. (n.d.). Hyndman, R.J. and Khandakar, Y. (2008) Automatic Time Series Forecasting The Forecast Package for R. Journal of Statistical Software, 27, 1-22. -References - Scientific Research Publishing. [online] Available at: https://www.scirp.org/reference/ReferencesPapers?ReferenceID=2096093
 
-www.ey.com. (n.d.). How insurers are managing liquidity risks in a volatile market. [online] Available at: https://www.ey.com/en_au/insurance/how-insurers-are-managing-liquidityrisks-in-a-volatile-mark
+www.ey.com. (n.d.). How insurers are managing liquidity risks in a volatile market. [online] Available at: https://www.ey.com/en_au/insurance/how-insurers-are-managing-liquidity-risks-in-a-volatile-mark
 
 ### Congrats on completing the [2024 SOA Research Challenge](https://www.soa.org/research/opportunities/2024-student-research-case-study-challenge/)!
 
