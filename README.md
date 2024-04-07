@@ -60,7 +60,7 @@ Regular annual evaluation, analysis of policyholders’ transitions through tier
 
 ### Product Timeline
 
-![](<Images and Tables/Prodct Timeline.png>)
+![](<Images and Tables/Product Timeline.png>)
 
 As demonstrated in Lifesavers Consultancy’s product timeline, between September and October 2024, efforts will concentrate on forging partnerships with retailers and wellness activity providers, laying the groundwork for collaboration. Following this, from October-December 2024, the focus will shift to the design, development, and internal testing of the application. Additionally, November 2024 will see a regulatory compliance review to ensure adherence to necessary standards. 
 
