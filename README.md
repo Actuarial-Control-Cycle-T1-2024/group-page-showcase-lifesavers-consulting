@@ -1,4 +1,4 @@
-# SOA 2024: Health Inventive Plan
+# SOA 2024: Health Incentive Plan
 
 Team: Lifesavers Consultancy
 Members: Jason Lim, Dongjin Youn, Zihao Zhou, Manjot Singh, Michael Trinh
@@ -73,7 +73,7 @@ With the above product timeline in mind, the short-term timeframe for the evalua
 # embed table here!!
 
 ## Pricing and Costs
-### Modelling Program Participation [code](Transition-modelling.r)
+### Modelling Program Participation [[code](Transition-modelling.r)]
 To emulate the policyholder’s behaviour and their participation in the program, our team has segmented the population into 4 groups driven by their reduction in mortality due to their participation in health incentives. The four groups are defined as "High Impact", "Moderate Impact", "Low Impact", and "No Participation” groups with assumptions of 7.5%, 5%, 2.5% and 0% reduction in mortality respectively. Furthermore, this group will act as states of the Markov Chain to simulate both short-term behaviours when the program is deployed as well as long-term distribution amongst the group incorporating diminishing effects as well. 
 
 The transition rate amongst the states is initially estimated backed by critical research of literature reviews. Yet, it is a sole assumption in the program development phase and Lifesavers Consultancy aims to continuously modify and update the model during SuperLife’s deployment of the program to retrieve relevant data. The transition rates are defined as below:
@@ -86,7 +86,7 @@ Based on the initial conjecture provided above, Lifesavers Consultancy will cont
 
 As demonstrated through the visualisation, all policyholders are assumed to begin in the full participation state and the distribution changes as time progresses. It is important to note for the long-term prediction over the 20-30-year period the distribution stabilises, and the corresponding figures are used for our future projections.
 
-### Interest Rate Projection [code](<interest rate forecasting.R>)
+### Interest Rate Projection [[code](<interest rate forecasting.R>)]
 Proven from precedent literature reviews, the Autoregressive Integrated Moving Average (ARIMA) model has shown its effectiveness in forecasting inflation and interest rates in future using past datasets. The modelling can be seen in Appendix E and F. From the model, it can be derived that the long-term interest rate is 4.85% p.a., which will be integrated in Lifesavers Consultancy’s pricing model. 
 
 ### Mortality Saving
