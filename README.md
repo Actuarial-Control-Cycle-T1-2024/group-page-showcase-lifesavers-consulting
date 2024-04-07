@@ -24,8 +24,8 @@ From the [inforce dataset](2024-srcsc-superlife-inforce-dataset-part1.csv), we f
 
 - SuperLife issues whole life insurance to people aged 35-65 (left-skewed).
 - SuperLife issues 20-year term insurance to people aged 26-55 (left-skewed).
-- The cause of death between smokers and non-smokers has huge discrepancies, as seen in Appendix A, and thus must be considered separately.
-- The distribution channel has no effect on the underwriting class, as seen in Appendix B, thus does not need to be considered in our investigations.
+- The cause of death between smokers and non-smokers has huge discrepancies, as seen in [Appendix A](<Appendices/Appendix A>), and thus must be considered separately.
+- The distribution channel has no effect on the underwriting class, as seen in [Appendix B](<Appendices/Appendix B>), thus does not need to be considered in our investigations.
 
 ### Program Description
 SuperLife’s main concern is regarding the improved mortality rate of their policyholders after purchasing the whole and term life insurance products. Recognising that a healthier lifestyle directly correlates with longevity, our team has devised an innovative approach to reward policyholders for adopting and maintaining healthy habits. Our new program aims to incentivise policyholders to live healthily by offering predetermined discounts through a cashback application that we’d develop for users to utilise whenever they participate in scheduled intervention programs or utilise designated health services through partnered retailers/institutions. Our team is looking to specifically lowering the mortality of smokers, as mortality rates increases significantly as the age group increases.
@@ -33,7 +33,7 @@ SuperLife’s main concern is regarding the improved mortality rate of their pol
 ### Intervention Programs
 Intervention programs are health initiatives targeted to reducing mortality rates through educating and providing medical assistance for policyholders. To ensure equitable distribution of rewards and encourage continuous improvement in health behaviours, policyholders are first stratified into distinct tiers based on various health-related factors, mainly age group and smoking status. When assessing the possible intervention programs to invest in the proposed system, LifeSavers Consultancy grouped them into 3 categories: high effect (at least a 6% mortality reduction), moderate effect (between 3-6%) and low effect (2-4%). It was decided to select 3 programs in each tier to allow a diverse range of policyholders to participate. 
 
-After thoroughly analysing the most frequent death causes of policyholders within the last 20 years (see Appendix A), it was discovered that cancer and heart or circulatory system disease were the top two leading causes of death. Considering this, as well as how different programs would have different effects based on smoking status and age, Lifesavers Consultancy critically selected the 9 intervention programs that the firm recommends that SuperLife 
+After thoroughly analysing the most frequent death causes of policyholders within the last 20 years (see [Appendix A](<Appendices/Appendix A>)), it was discovered that cancer and heart or circulatory system disease were the top two leading causes of death. Considering this, as well as how different programs would have different effects based on smoking status and age, Lifesavers Consultancy critically selected the 9 intervention programs that the firm recommends that SuperLife 
 focuses on, as shown below:
 
 - High Effect (6%+ mortality reduction):
@@ -50,7 +50,7 @@ focuses on, as shown below:
    - Incentives for Regular Medication Adherence
   
 A detailed table explaining the choice of the intervention programs, as well as the mortality 
-reduction effects can be seen in Appendix C.
+reduction effects can be seen in [Appendix C](<Appendices/Appendix C>).
 
 ### Cashback Logistics
 Each tier is associated with different discount levels based on the estimated reduction in mortality, ensuring that rewards are tailored towards individual circumstances. The following tiered approach encourages policyholders to strive for healthier lifestyles, as those who exhibit positive health behaviours, participate in the high effect intervention program and thus, have the highest reduction in mortality are eligible for more substantial cashback 
@@ -60,7 +60,7 @@ Regular annual evaluation, analysis of policyholders’ transitions through tier
 
 ### Product Timeline
 
-# embed picture here!!
+![](<Images and Tables/Prodct Timeline>)
 
 As demonstrated in Lifesavers Consultancy’s product timeline, between September and October 2024, efforts will concentrate on forging partnerships with retailers and wellness activity providers, laying the groundwork for collaboration. Following this, from October-December 2024, the focus will shift to the design, development, and internal testing of the application. Additionally, November 2024 will see a regulatory compliance review to ensure adherence to necessary standards. 
 
@@ -74,7 +74,7 @@ With the above product timeline in mind, the short-term timeframe for the evalua
 
 ## Assumptions
 
-# embed table here!!
+![](<Images and Tables/Assumptions>)
 
 ## Pricing and Costs
 ### Modelling Program Participation [[code](Transition-modelling.r)]
@@ -82,22 +82,22 @@ To emulate the policyholder’s behaviour and their participation in the program
 
 The transition rate amongst the states is initially estimated backed by critical research of literature reviews. Yet, it is a sole assumption in the program development phase and Lifesavers Consultancy aims to continuously modify and update the model during SuperLife’s deployment of the program to retrieve relevant data. The transition rates are defined as below:
 
-# embed picture here!!!
+![](<Images and Tables/Transition Matrix>)
 
 Based on the initial conjecture provided above, Lifesavers Consultancy will continue investigation into the dynamic participation rate and population distribution amongst different states as the programs are deployed. The visualisation is provided below.
 
-# embed picture here!!!
+![](<Images and Tables/Simulation>)
 
 As demonstrated through the visualisation, all policyholders are assumed to begin in the full participation state and the distribution changes as time progresses. It is important to note for the long-term prediction over the 20-30-year period the distribution stabilises, and the corresponding figures are used for our future projections.
 
 ### Interest Rate Projection [[code](<interest rate forecasting.R>)]
-Proven from precedent literature reviews, the Autoregressive Integrated Moving Average (ARIMA) model has shown its effectiveness in forecasting inflation and interest rates in future using past datasets. The modelling can be seen in Appendix E and F. From the model, it can be derived that the long-term interest rate is 4.85% p.a., which will be integrated in Lifesavers Consultancy’s pricing model. 
+Proven from precedent literature reviews, the Autoregressive Integrated Moving Average (ARIMA) model has shown its effectiveness in forecasting inflation and interest rates in future using past datasets. The modelling can be seen in [Appendix E](<Appendices/Appendix E>) and [F](<Appendices/Appendix F>). From the model, it can be derived that the long-term interest rate is 4.85% p.a., which will be integrated in Lifesavers Consultancy’s pricing model. 
 
 ### Mortality Saving [[code](<4001 code Zihao.r>)]
 The mortality savings are calculated through the implementation of Lifesavers Consultancy’s intervention program on the already existing inforce dataset with a 20-year interval from the year 2004 to 2023. Using the inforce data set, the policyholders are grouped into age groups from 21-30, 31-40, 41-50 and onwards, and then further grouped by their smoking status. Smoking status is an important factor due to the mortality of smokers being drastically 
-different from non-smokers (0.39 vs 0.03 for aged 61-70), especially in older age groups as indicated in Appendix G.
+different from non-smokers (0.39 vs 0.03 for aged 61-70), especially in older age groups as indicated in [Appendix G](<Appendices/Appendix G>).
 
-The total death benefit payouts before the implementation of Lifesavers Consultancy’s program are calculated (see more details in Appendix H) using:
+The total death benefit payouts before the implementation of Lifesavers Consultancy’s program are calculated (see more details in [Appendix H](<Appendices/Appendix H>)) using:
 ```math 
 \begin{multline}
 \text{total payout per year}
@@ -108,13 +108,13 @@ The total death benefit payouts before the implementation of Lifesavers Consulta
 
 The calculation of total death benefit payouts with the implementation of the intervention program requires the probability transition matrix presented above, with the long-run proportions (approximated to 1dp) being 6.5%, 19.3%, 32.3% and 41.9% in the high, moderate, low and no effect tiers respectively. 
 
-The reduction in mortality from the intervention program will be very effective at the start of the program, and as the lifestyle improves for the policyholders, the reduction in mortality will taper off to the long-run reduction calculated using the proportions above and short-run reduction as shown in Appendix I. Furthermore, since data for the yearly reduction of smokers are not given, we decided to conservatively assume a 1% decrease in the number of smokers annually under our program (CDC, 2022). With the above information, we can then repeat the same process and incorporate the reduction in mortality. 
+The reduction in mortality from the intervention program will be very effective at the start of the program, and as the lifestyle improves for the policyholders, the reduction in mortality will taper off to the long-run reduction calculated using the proportions above and short-run reduction as shown in [Appendix I](<Appendices/Appendix I>). Furthermore, since data for the yearly reduction of smokers are not given, we decided to conservatively assume a 1% decrease in the number of smokers annually under our program (CDC, 2022). With the above information, we can then repeat the same process and incorporate the reduction in mortality. 
 
-The results show that with the implementation of the program, the mortality will have a 7.1% reduction in the long-term (15+ years) and a short-term reduction (1-15 years) of 10-22% for non-smokers, and 7.6% long-term and 8-23.5% short-term reduction for smokers. The reduction in mortality subsequently results in mortality savings of an average of 15.2% annually shown in Figure 1. The comparison of the costs can be seen in the diagram in appendix K. [[calculations](<mortality cost past 20 years & sensitivity test.xlsx>)]
+The results show that with the implementation of the program, the mortality will have a 7.1% reduction in the long-term (15+ years) and a short-term reduction (1-15 years) of 10-22% for non-smokers, and 7.6% long-term and 8-23.5% short-term reduction for smokers. The reduction in mortality subsequently results in mortality savings of an average of 15.2% annually shown in Figure 1. The comparison of the costs can be seen in the diagram in [appendix K](<Appendices/Appendix K>). [[calculations](<mortality cost past 20 years & sensitivity test.xlsx>)]
 
-# embed picture here !!!
+![](<Images and Tables/Mortality Savings Past>)
 
-This mortality saving can be projected into the future (20-year projection), using linear regression to project new policyholders and mortality projections given in the mortality table. As shown in Appendix L, SuperLife, using our intervention program will still maintain a positive mortality saving to an even greater extent, due to higher numbers of policyholders resulting in more savings from intervention reducing mortality costs by 17.4% average annually. [[calculations](<mortality cost payout projection & sensitivity test.xlsx>)]
+This mortality saving can be projected into the future (20-year projection), using linear regression to project new policyholders and mortality projections given in the mortality table. As shown in [Appendix L](<Appendices/Appendix L>), SuperLife, using our intervention program will still maintain a positive mortality saving to an even greater extent, due to higher numbers of policyholders resulting in more savings from intervention reducing mortality costs by 17.4% average annually. [[calculations](<mortality cost payout projection & sensitivity test.xlsx>)]
 
 ### Premium Pricing [[calculations](<Cost Savings Manjot.xlsx>)]
 To calculate the economic benefits of the proposed product, the policyholders were split into four groups, which were:
@@ -123,16 +123,16 @@ To calculate the economic benefits of the proposed product, the policyholders we
 3. Smokers, whole life
 4. Smokers, 20-year term
 
-First, the cost of the policies without the program were calculated. Life tables of non-smokers and smokers were first constructed respectively. To produce the life table for non-smokers, the mortality data provided was used, while for smokers, a loading factor, as can be seen in Appendix M, was added to the mortality data, and the age limit was set to 100. To get the cost of each policy, assumptions around the cost per policy were used. Also, the modelled interest rate of 4.85% p.a. was used, as well as a 1% lapse rate, gathered from the inforce dataset (see Appendix N).
+First, the cost of the policies without the program were calculated. Life tables of non-smokers and smokers were first constructed respectively. To produce the life table for non-smokers, the mortality data provided was used, while for smokers, a loading factor, as can be seen in [Appendix M](<Appendices/Appendix M>), was added to the mortality data, and the age limit was set to 100. To get the cost of each policy, assumptions around the cost per policy were used. Also, the modelled interest rate of 4.85% p.a. was used, as well as a 1% lapse rate, gathered from the inforce dataset (see [Appendix N](<Appendices/Appendix N>)).
 
 Then, the cost of the policies with the program were calculated. This was done by estimating the costs of the intervention programs as part of the product, and then calculating the cost of a reasonable cashback. This was then multiplied by the long-term transition probabilities, to predict the proportion of people we would be giving cashback to. The cost of the cashback was split evenly between each policyholder, despite the policy conditions, as any policyholder would be given the same amount of cashback. This cashback would be funded by a reduction in mortality and this factor was predicted to be, using the long-term transition probabilities, ~93% for non-smokers, and ~92.5% for smokers. 
 
-Now, using the demographic of policyholders given in the dataset, it was calculated that the average savings SuperLife would have made per policy would have been 2.5% with the proposed product, if it had been implemented 20 years ago. This would have allowed SuperLife to either reduce premiums, or maintain the same level of premiums, and have 2.5% more margin per policy. Projecting into the future for 20 years, there is a trend in the proportion of sum insured, seen in Appendix O, and it was calculated that if this trend continues, that SuperLife will save up to 3-4% per policy on average. 
+Now, using the demographic of policyholders given in the dataset, it was calculated that the average savings SuperLife would have made per policy would have been 2.5% with the proposed product, if it had been implemented 20 years ago. This would have allowed SuperLife to either reduce premiums, or maintain the same level of premiums, and have 2.5% more margin per policy. Projecting into the future for 20 years, there is a trend in the proportion of sum insured, seen in [Appendix O](<Appendices/Appendix O>), and it was calculated that if this trend continues, that SuperLife will save up to 3-4% per policy on average. 
 
 ## Risk and Risk Mitigation
 The program risk map displays the most likely and impactful risk we identified for this project. Since these risks can greatly affect mortality savings, profitability and longevity of 9 policyholders, they must be identified and mitigated so that benefits of our product are not diminished. 
 
-# embed picture here!!!!
+![](<Images and Tables/Risk Map>)
 
 1. Catastrophe risk (quantifiable): unexpected natural disasters or a deadly pandemic will dramatically increase the mortality of all policyholders, which increases the potential payout and cost of our product. This risk can be mitigated either through transferring it to a disaster reinsurance pool or through exclusions of catastrophe related claims
 2. Liquidity risk (quantifiable): life insurance claims require adequate reserves to cover potential claims. This risk can be mitigated by frequent reviewing of cash flow projections, mortality rates etc. This is included in the maintenance cost of the products and is transferred as a premium expense loading to further mitigate this risk. Furthermore, consistent scenario testing can also reduce this risk. 
@@ -148,7 +148,7 @@ According to external studies (CDC, 2022) on the annual quit rate of smokers, th
 
 _Mortality Reduction_
 
-We calculated the mortality using the median of the range from the intervention data and increased the reduction of certain programs as we believed they would be more effective in reducing smokers’ mortality. By scenario testing with the low-end mortality reduction (5% reduction for high tier, 3% reduction for moderate tier and 2% for low tier), our intervention program still yields a 10% average annual mortality saving which is equal to the ideal profit margin. For the projected mortality saving, the program, in the worst-case scenario will produce a 12.4% annual savings in mortality payments. An example of the effects of lowered reduction is indicated in Appendix L. Therefore, to be conservative, the financial viability range for program mortality reduction is 6-10% for high tier, 3-8% for moderate tier, and 2-4% for low tier. Overall, due to the accuracy of our mortality reduction simulation, combined with the conservative assumptions, there is a 90% certainty that the mortality will decrease and create mortality savings as a result of our program.
+We calculated the mortality using the median of the range from the intervention data and increased the reduction of certain programs as we believed they would be more effective in reducing smokers’ mortality. By scenario testing with the low-end mortality reduction (5% reduction for high tier, 3% reduction for moderate tier and 2% for low tier), our intervention program still yields a 10% average annual mortality saving which is equal to the ideal profit margin. For the projected mortality saving, the program, in the worst-case scenario will produce a 12.4% annual savings in mortality payments. An example of the effects of lowered reduction is indicated in [Appendix L](<Appendices/Appendix L>). Therefore, to be conservative, the financial viability range for program mortality reduction is 6-10% for high tier, 3-8% for moderate tier, and 2-4% for low tier. Overall, due to the accuracy of our mortality reduction simulation, combined with the conservative assumptions, there is a 90% certainty that the mortality will decrease and create mortality savings as a result of our program.
 
 In addition, the SuperLife consultancy has incorporated the multiplicative effects of the intervention programs by using:
 ```math
@@ -166,7 +166,7 @@ By modifying the interest rate assumption, Lifesavers Consultancy found that the
 
 # Data and Data Limitations
 
-# embed table here!
+![](<Images and Tables/Data Limitations>)
 
 # Further Recommendations
 Lifesavers consultancy has illustrated several scenarios and projections for SuperLife with a cashback program design and assumptions table that are both heavily grounded in rational actuarial judgement. 
@@ -179,7 +179,7 @@ _Application Implementations_
 
 A key future concern for SuperLife is retaining policyholders to continue participating and demonstrating these healthier lifestyle habits. Gamifying through objectives and adding the ability to interact with peers through the application would enhance policyholders’ user experience, making it more enjoyable, competitive and sociable to participate in. An app demo is seen in Figure 2. Ultimately, our team’s goal transcends just mortality reduction and cost saving; it also encompasses the holistic well-being of SuperLife's policyholders.
 
-# embed picture here !!!
+![](<Images and Tables/Gamification>)
 
 _Data Protection_
 
