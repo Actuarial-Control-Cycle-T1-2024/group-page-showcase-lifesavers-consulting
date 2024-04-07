@@ -100,13 +100,7 @@ The mortality savings are calculated through the implementation of Lifesavers Co
 different from non-smokers (0.39 vs 0.03 for aged 61-70), especially in older age groups as indicated in [Appendix G](<Appendices/Appendix G.png>).
 
 The total death benefit payouts before the implementation of Lifesavers Consultancy’s program are calculated (see more details in [Appendix H](<Appendices/Appendix H.png>)) using:
-```math 
-\begin{multline}
-\text{total payout per year}
-            = \text{probability of death of smokers} \times \text{percentage of age group}
-            \times \text{policyholders each year} \times \text{percentage of smokers} \times \text{mean face amount}
-\end{multline}
-```
+![](<Images and Tables/Equation 1.png>)
 
 The calculation of total death benefit payouts with the implementation of the intervention program requires the probability transition matrix presented above, with the long-run proportions (approximated to 1dp) being 6.5%, 19.3%, 32.3% and 41.9% in the high, moderate, low and no effect tiers respectively. 
 
@@ -153,9 +147,7 @@ _Mortality Reduction_
 We calculated the mortality using the median of the range from the intervention data and increased the reduction of certain programs as we believed they would be more effective in reducing smokers’ mortality. By scenario testing with the low-end mortality reduction (5% reduction for high tier, 3% reduction for moderate tier and 2% for low tier), our intervention program still yields a 10% average annual mortality saving which is equal to the ideal profit margin. For the projected mortality saving, the program, in the worst-case scenario will produce a 12.4% annual savings in mortality payments. An example of the effects of lowered reduction is indicated in [Appendix L](<Appendices/Appendix L.png>). Therefore, to be conservative, the financial viability range for program mortality reduction is 6-10% for high tier, 3-8% for moderate tier, and 2-4% for low tier. Overall, due to the accuracy of our mortality reduction simulation, combined with the conservative assumptions, there is a 90% certainty that the mortality will decrease and create mortality savings as a result of our program.
 
 In addition, the SuperLife consultancy has incorporated the multiplicative effects of the intervention programs by using:
-```math
-(1 - \text{reduction in mortality})^\text{number of interventions}
-```
+![](<Images and Tables/Equation 2.png>)
 Considering the conjunction effect of interventions rather than simple addition which is not an accurate demonstration of real-life scenarios.
 
 _Transition Probability_
