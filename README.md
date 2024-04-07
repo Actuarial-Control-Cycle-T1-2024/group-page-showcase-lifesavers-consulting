@@ -98,8 +98,13 @@ The mortality savings are calculated through the implementation of Lifesavers Co
 different from non-smokers (0.39 vs 0.03 for aged 61-70), especially in older age groups as indicated in Appendix G.
 
 The total death benefit payouts before the implementation of Lifesavers Consultancy’s program are calculated (see more details in Appendix H) using:
-
-# embed picture here!!!
+```math 
+\begin{multline}
+\text{total payout per year}
+            = \text{probability of death of smokers} * \text{percentage of age group}
+            * \text{policyholders each year} * \text{percentage of smokers} * \text{mean face amount}
+\end{multline}
+```
 
 The calculation of total death benefit payouts with the implementation of the intervention program requires the probability transition matrix presented above, with the long-run proportions (approximated to 1dp) being 6.5%, 19.3%, 32.3% and 41.9% in the high, moderate, low and no effect tiers respectively. 
 
@@ -145,7 +150,7 @@ We calculated the mortality using the median of the range from the intervention 
 
 In addition, the SuperLife consultancy has incorporated the multiplicative effects of the intervention programs by using:
 ```math
-(1 - reduction in mortality)^\text{number of interventions}
+(1 - \text{reduction in mortality})^\text{number of interventions}
 ```
 Considering the conjunction effect of interventions rather than simple addition which is not an accurate demonstration of real-life scenarios.
 
