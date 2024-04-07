@@ -23,11 +23,8 @@ Furthermore, employment distribution data with 12% in agriculture, 35% in indust
 From the [inforce dataset](2024-srcsc-superlife-inforce-dataset-part1.csv), we found the following key facts:
 
 - SuperLife issues whole life insurance to people aged 35-65 (left-skewed).
-
 - SuperLife issues 20-year term insurance to people aged 26-55 (left-skewed).
-
 - The cause of death between smokers and non-smokers has huge discrepancies, as seen in Appendix A, and thus must be considered separately.
-
 - The distribution channel has no effect on the underwriting class, as seen in Appendix B, thus does not need to be considered in our investigations.
 
 ### Program Description
@@ -40,27 +37,16 @@ After thoroughly analysing the most frequent death causes of policyholders withi
 focuses on, as shown below:
 
 - High Effect (6%+ mortality reduction):
-
    - Weight Management Programs
-  
    - Heart Health Screenings
-  
    - Cancer Prevention Initiatives
-  
 - Moderate Effect (3-6% mortality reduction):
-
    - Fitness Tracking Incentives
-  
    - Holistic Stress Reduction
-  
    - Alcohol Moderation Programs
-  
 - Low Effect (2-4% mortality reduction):
-
    - Educational Workshops
-  
-   - Driving Safety Courses
-  
+   - Driving Safety Courses  
    - Incentives for Regular Medication Adherence
   
 A detailed table explaining the choice of the intervention programs, as well as the mortality 
