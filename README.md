@@ -143,8 +143,10 @@ According to external studies (CDC, 2022) on the annual quit rate of smokers, th
 _Mortality Reduction_
 We calculated the mortality using the median of the range from the intervention data and increased the reduction of certain programs as we believed they would be more effective in reducing smokers’ mortality. By scenario testing with the low-end mortality reduction (5% reduction for high tier, 3% reduction for moderate tier and 2% for low tier), our intervention program still yields a 10% average annual mortality saving which is equal to the ideal profit margin. For the projected mortality saving, the program, in the worst-case scenario will produce a 12.4% annual savings in mortality payments. An example of the effects of lowered reduction is indicated in Appendix L. Therefore, to be conservative, the financial viability range for program mortality reduction is 6-10% for high tier, 3-8% for moderate tier, and 2-4% for low tier. Overall, due to the accuracy of our mortality reduction simulation, combined with the conservative assumptions, there is a 90% certainty that the mortality will decrease and create mortality savings as a result of our program.
 
-In addition, the SuperLife consultancy has incorporated the multiplicative effects of the intervention programs by using: 
-<p style="text-align: center;">(1 − 𝑟𝑒𝑑𝑢𝑐𝑡𝑖𝑜𝑛 𝑖𝑛 𝑚𝑜𝑟𝑡𝑎𝑙𝑖𝑡𝑦)𝑛𝑢𝑚𝑏𝑒𝑟 𝑜𝑓 𝑖𝑛𝑡𝑒𝑟𝑣𝑒𝑛𝑡𝑖𝑜𝑛𝑠</p>
+In addition, the SuperLife consultancy has incorporated the multiplicative effects of the intervention programs by using:
+```math
+\text{1 - reduction in mortality}^{number of interventions}
+```
 Considering the conjunction effect of interventions rather than simple addition which is not an accurate demonstration of real-life scenarios.
 
 _Transition Probability_
