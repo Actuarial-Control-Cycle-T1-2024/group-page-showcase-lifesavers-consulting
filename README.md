@@ -172,14 +172,17 @@ By modifying the interest rate assumption, Lifesavers Consultancy found that the
 Lifesavers consultancy has illustrated several scenarios and projections for SuperLife with a cashback program design and assumptions table that are both heavily grounded in rational actuarial judgement. 
 
 _Data Gathering_
+
 Even though the assumptions and modelling may have a slight margin of error due to the lack of historical data provided, our simulations established that we’ve constructed a program that contains a high-level of certainty to increase future savings for SuperLife insurance whilst simultaneously being able to decrease expected mortality in policyholders. However, this requires regular monitoring, feedback and reviewing for the program to be truly successful and in turn, future data can be utilised to fulfil the margin of error, increasing accuracy.
 
 _Application Implementations_
+
 A key future concern for SuperLife is retaining policyholders to continue participating and demonstrating these healthier lifestyle habits. Gamifying through objectives and adding the ability to interact with peers through the application would enhance policyholders’ user experience, making it more enjoyable, competitive and sociable to participate in. An app demo is seen in Figure 2. Ultimately, our team’s goal transcends just mortality reduction and cost saving; it also encompasses the holistic well-being of SuperLife's policyholders.
 
 # embed picture here !!!
 
 _Data Protection_
+
 As the program expand out into a digital space and SuperLife is collecting more of policyholder’s information, it is integral to protect the policyholder’s data safely and securely. As such, we aim to implement cloud computing system and utilise VPN and segregation of access theory to SuperLife organisation, protecting trust and maintaining integrity of the firm.
 
 # References
