@@ -41,27 +41,27 @@ focuses on, as shown below:
 
 • High Effect (6%+ mortality reduction):
 
-     o Weight Management Programs
+   o Weight Management Programs
   
-     o Heart Health Screenings
+   o Heart Health Screenings
   
-     o Cancer Prevention Initiatives
+   o Cancer Prevention Initiatives
   
 • Moderate Effect (3-6% mortality reduction):
 
-     o Fitness Tracking Incentives
+   o Fitness Tracking Incentives
   
-     o Holistic Stress Reduction
+   o Holistic Stress Reduction
   
-     o Alcohol Moderation Programs
+   o Alcohol Moderation Programs
   
 • Low Effect (2-4% mortality reduction):
 
-     o Educational Workshops
+   o Educational Workshops
   
-     o Driving Safety Courses
+   o Driving Safety Courses
   
-     o Incentives for Regular Medication Adherence
+   o Incentives for Regular Medication Adherence
   
 A detailed table explaining the choice of the intervention programs, as well as the mortality 
 reduction effects can be seen in Appendix C.
