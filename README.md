@@ -22,13 +22,13 @@ Furthermore, employment distribution data with 12% in agriculture, 35% in indust
 
 From the [inforce dataset](2024-srcsc-superlife-inforce-dataset-part1.csv), we found the following key facts:
 
-• SuperLife issues whole life insurance to people aged 35-65 (left-skewed).
+- SuperLife issues whole life insurance to people aged 35-65 (left-skewed).
 
-• SuperLife issues 20-year term insurance to people aged 26-55 (left-skewed).
+- SuperLife issues 20-year term insurance to people aged 26-55 (left-skewed).
 
-• The cause of death between smokers and non-smokers has huge discrepancies, as seen in Appendix A, and thus must be considered separately.
+- The cause of death between smokers and non-smokers has huge discrepancies, as seen in Appendix A, and thus must be considered separately.
 
-• The distribution channel has no effect on the underwriting class, as seen in Appendix B, thus does not need to be considered in our investigations.
+- The distribution channel has no effect on the underwriting class, as seen in Appendix B, thus does not need to be considered in our investigations.
 
 ### Program Description
 SuperLife’s main concern is regarding the improved mortality rate of their policyholders after purchasing the whole and term life insurance products. Recognising that a healthier lifestyle directly correlates with longevity, our team has devised an innovative approach to reward policyholders for adopting and maintaining healthy habits. Our new program aims to incentivise policyholders to live healthily by offering predetermined discounts through a cashback application that we’d develop for users to utilise whenever they participate in scheduled intervention programs or utilise designated health services through partnered retailers/institutions. Our team is looking to specifically lowering the mortality of smokers, as mortality rates increases significantly as the age group increases.
@@ -39,29 +39,29 @@ Intervention programs are health initiatives targeted to reducing mortality rate
 After thoroughly analysing the most frequent death causes of policyholders within the last 20 years (see Appendix A), it was discovered that cancer and heart or circulatory system disease were the top two leading causes of death. Considering this, as well as how different programs would have different effects based on smoking status and age, Lifesavers Consultancy critically selected the 9 intervention programs that the firm recommends that SuperLife 
 focuses on, as shown below:
 
-• High Effect (6%+ mortality reduction):
+- High Effect (6%+ mortality reduction):
 
-   o Weight Management Programs
+   - Weight Management Programs
   
-   o Heart Health Screenings
+   - Heart Health Screenings
   
-   o Cancer Prevention Initiatives
+   - Cancer Prevention Initiatives
   
-• Moderate Effect (3-6% mortality reduction):
+- Moderate Effect (3-6% mortality reduction):
 
-   o Fitness Tracking Incentives
+   - Fitness Tracking Incentives
   
-   o Holistic Stress Reduction
+   - Holistic Stress Reduction
   
-   o Alcohol Moderation Programs
+   - Alcohol Moderation Programs
   
-• Low Effect (2-4% mortality reduction):
+- Low Effect (2-4% mortality reduction):
 
-   o Educational Workshops
+   - Educational Workshops
   
-   o Driving Safety Courses
+   - Driving Safety Courses
   
-   o Incentives for Regular Medication Adherence
+   - Incentives for Regular Medication Adherence
   
 A detailed table explaining the choice of the intervention programs, as well as the mortality 
 reduction effects can be seen in Appendix C.
