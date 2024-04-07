@@ -148,6 +148,7 @@ We calculated the mortality using the median of the range from the intervention 
 
 In addition, the SuperLife consultancy has incorporated the multiplicative effects of the intervention programs by using:
 ![](<Images and Tables/Equation 2.png>)
+
 Considering the conjunction effect of interventions rather than simple addition which is not an accurate demonstration of real-life scenarios.
 
 _Transition Probability_
