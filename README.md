@@ -1,9 +1,11 @@
 # SOA 2024: Health Incentive Plan
 
 Team: Lifesavers Consultancy
+
 Members: Jason Lim, Dongjin Youn, Zihao Zhou, Manjot Singh, Michael Trinh
 
 The main report can be found below, with references to the accompanying code and appendices. For the pdf of the full report, click [here](<Lifesavers Consultancy Proposal Report.pdf>).
+
 If you would like to see the main report in its website form, please click [here](https://actuarial-control-cycle-t1-2024.github.io/group-page-showcase-lifesavers-consulting/).
 
 ---
