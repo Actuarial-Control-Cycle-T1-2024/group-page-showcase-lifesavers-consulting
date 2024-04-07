@@ -19,6 +19,7 @@ SuperLife will benefit through an increase in profitability and market exposure.
 ### Preliminary Analysis
 To better understand the market domain that SuperLife is operating within, we have investigated the contextual background of Lumaria to tailor our solution to meet the customers' needs. Our team began research by analysing the annual income distribution, as well as GDP per capita which translates to 26,806 USD as of the 2023 estimate. The following figures indicate that their economic status is comparable to countries such as Argentina with similar GDP per capita which will serve as a benchmark. Furthermore, employment distribution data with 12% in agriculture, 35% in industry, and 53% in service shares a similar proportion with emerging countries such as China, Turkey, and Indonesia, which served as a critical indicator for our solution. Based on the comparison, our team has rejected the implementation of health incentives which solely rely on high upfront costs for policyholders, leading to more robust program design.
 From the [inforce dataset](2024-srcsc-superlife-inforce-dataset-part1.csv), we found the following key facts:
+
 • SuperLife issues whole life insurance to people aged 35-65 (left-skewed).
 
 • SuperLife issues 20-year term insurance to people aged 26-55 (left-skewed).
@@ -35,18 +36,31 @@ Intervention programs are health initiatives targeted to reducing mortality rate
 
 After thoroughly analysing the most frequent death causes of policyholders within the last 20 years (see Appendix A), it was discovered that cancer and heart or circulatory system disease were the top two leading causes of death. Considering this, as well as how different programs would have different effects based on smoking status and age, Lifesavers Consultancy critically selected the 9 intervention programs that the firm recommends that SuperLife 
 focuses on, as shown below:
+
 • High Effect (6%+ mortality reduction):
+
   o Weight Management Programs
+  
   o Heart Health Screenings
+  
   o Cancer Prevention Initiatives
+  
 • Moderate Effect (3-6% mortality reduction):
+
   o Fitness Tracking Incentives
+  
   o Holistic Stress Reduction
+  
   o Alcohol Moderation Programs
+  
 • Low Effect (2-4% mortality reduction):
+
   o Educational Workshops
+  
   o Driving Safety Courses
+  
   o Incentives for Regular Medication Adherence
+  
 A detailed table explaining the choice of the intervention programs, as well as the mortality 
 reduction effects can be seen in Appendix C.
 
