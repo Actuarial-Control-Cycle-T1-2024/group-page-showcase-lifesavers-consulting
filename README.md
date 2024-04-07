@@ -101,8 +101,8 @@ The total death benefit payouts before the implementation of Lifesavers Consulta
 ```math 
 \begin{multline}
 \text{total payout per year}
-            = \text{probability of death of smokers} * \text{percentage of age group}
-            * \text{policyholders each year} * \text{percentage of smokers} * \text{mean face amount}
+            = \text{probability of death of smokers} \times \text{percentage of age group}
+            \times \text{policyholders each year} \times \text{percentage of smokers} \times \text{mean face amount}
 \end{multline}
 ```
 
@@ -143,9 +143,11 @@ The program risk map displays the most likely and impactful risk we identified f
 
 ### Scenario Testing
 _Smoker Quit Rate_
+
 According to external studies (CDC, 2022) on the annual quit rate of smokers, the average annual rate of reduction for smokers is 1% to 7.5%. Therefore, we used a conservative assumption of using the worst-case scenario which yields a mortality cost saving in the pricing/cost section. 
 
 _Mortality Reduction_
+
 We calculated the mortality using the median of the range from the intervention data and increased the reduction of certain programs as we believed they would be more effective in reducing smokers’ mortality. By scenario testing with the low-end mortality reduction (5% reduction for high tier, 3% reduction for moderate tier and 2% for low tier), our intervention program still yields a 10% average annual mortality saving which is equal to the ideal profit margin. For the projected mortality saving, the program, in the worst-case scenario will produce a 12.4% annual savings in mortality payments. An example of the effects of lowered reduction is indicated in Appendix L. Therefore, to be conservative, the financial viability range for program mortality reduction is 6-10% for high tier, 3-8% for moderate tier, and 2-4% for low tier. Overall, due to the accuracy of our mortality reduction simulation, combined with the conservative assumptions, there is a 90% certainty that the mortality will decrease and create mortality savings as a result of our program.
 
 In addition, the SuperLife consultancy has incorporated the multiplicative effects of the intervention programs by using:
@@ -155,12 +157,12 @@ In addition, the SuperLife consultancy has incorporated the multiplicative effec
 Considering the conjunction effect of interventions rather than simple addition which is not an accurate demonstration of real-life scenarios.
 
 _Transition Probability_
+
 The long-run transitional probabilities to each tier of our product are contingent on external studies and research, if the rate of participation is lower than expected, then it will negatively impact SuperLife’s mortality saving. By scenario testing lower participation rates, we found that the viable range for scenario tests are 30%-100% to achieve a significant amount of mortality saving (10%). However, the Monte Carlo simulation used during calculating mortality savings produces reliable results through 50 repetitions so participation rate falling below 30% is unlikely. 
 
 _Interest Rate_
-By modifying the interest rate assumption, Lifesavers Consultancy found that there was little 
-impact on the total profits. It can be said that with 95% certainty, SuperLife will make at least 
-an additional 2% of profit by implementing this program. 
+
+By modifying the interest rate assumption, Lifesavers Consultancy found that there was little impact on the total profits. It can be said that with 95% certainty, SuperLife will make at least an additional 2% of profit by implementing this program. 
 
 # Data and Data Limitations
 
