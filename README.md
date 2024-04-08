@@ -5,7 +5,7 @@ Welcome to Lifesavers Consultancy!
 We would like to introduce you to our team: 
  - Jason Lim (Project Manager and Modelling Specialist)
  - Manjot Singh (Pricing Specialist)
- - Zihao Zhou (Risk analyst)
+ - Zihao Zhou (Risk Analyst)
  - Dongjin Youn (Resource Investigator)
  - Michael Trinh (Product Design Specialist) 
 
@@ -111,7 +111,7 @@ The calculation of total death benefit payouts with the implementation of the in
 
 The reduction in mortality from the intervention program will be very effective at the start of the program, and as the lifestyle improves for the policyholders, the reduction in mortality will taper off to the long-run reduction calculated using the proportions above and short-run reduction as shown in [Appendix I](<Appendices/Appendix I.png>). Furthermore, since data for the yearly reduction of smokers are not given, we decided to conservatively assume a 1% decrease in the number of smokers annually under our program (CDC, 2022). With the above information, we can then repeat the same process and incorporate the reduction in mortality. 
 
-The results show that with the implementation of the program, the mortality will have a 7.1% reduction in the long-term (15+ years) and a short-term reduction (1-15 years) of 10-22% for non-smokers, and 7.6% long-term and 8-23.5% short-term reduction for smokers. The reduction in mortality subsequently results in mortality savings of an average of 15.2% annually shown in Figure 1. The comparison of the costs can be seen in the diagram in [appendix K](<Appendices/Appendix K.png>). [[calculations](<mortality cost past 20 years & sensitivity test.xlsx>)]
+The results show that with the implementation of the program, the mortality will have a 7.1% reduction in the long-term (15+ years) and a short-term reduction (1-15 years) of 10-22% for non-smokers, and 7.6% long-term and 8-23.5% short-term reduction for smokers. The reduction in mortality subsequently results in mortality savings of an average of 15.2% annually shown in Figure 1. The comparison of the costs can be seen in the diagram in [Appendix K](<Appendices/Appendix K.png>). [[calculations](<mortality cost past 20 years & sensitivity test.xlsx>)]
 
 ![](<Images and Tables/Mortality Savings Past.png>)
 
