@@ -2,12 +2,12 @@
 
 Welcome to Lifesavers Consultancy!
 
-We would like to introduce you to our team: </n>
-Jason Lim (Project Manager and Modelling Specialist), </n>
-Manjot Singh (Pricing Specialist), </n>
-Zihao Zhou (Risk analyst), </n>
-Dongjin Youn (Resource Investigator), </n>
-Michael Trinh (Product Design Specialist) </n>
+We would like to introduce you to our team: 
+Jason Lim (Project Manager and Modelling Specialist), 
+Manjot Singh (Pricing Specialist), 
+Zihao Zhou (Risk analyst), 
+Dongjin Youn (Resource Investigator), 
+Michael Trinh (Product Design Specialist) 
 
 The main report can be found below, with references to the accompanying code and appendices. For the pdf of the full report, click [here](<Lifesavers Consultancy Proposal Report.pdf>).
 
