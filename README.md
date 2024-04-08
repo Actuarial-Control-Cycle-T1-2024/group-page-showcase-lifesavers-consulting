@@ -1,8 +1,13 @@
 # SOA 2024: Health Incentive Plan
 
-Team: Lifesavers Consultancy
+Welcome to Lifesavers Consultancy!
 
-Members: Jason Lim, Dongjin Youn, Zihao Zhou, Manjot Singh, Michael Trinh
+We would like to introduce you to our team:
+Jason Lim (Project Manager and Modelling Specialist)
+Manjot Singh (Pricing Specialist)
+Zihao Zhou (Risk analyst)
+Dongjin Youn (Resource Investigator)
+Michael Trinh (Product Design Specialist)
 
 The main report can be found below, with references to the accompanying code and appendices. For the pdf of the full report, click [here](<Lifesavers Consultancy Proposal Report.pdf>).
 
@@ -124,6 +129,8 @@ First, the cost of the policies without the program were calculated. Life tables
 Then, the cost of the policies with the program were calculated. This was done by estimating the costs of the intervention programs as part of the product, and then calculating the cost of a reasonable cashback. This was then multiplied by the long-term transition probabilities, to predict the proportion of people we would be giving cashback to. The cost of the cashback was split evenly between each policyholder, despite the policy conditions, as any policyholder would be given the same amount of cashback. This cashback would be funded by a reduction in mortality and this factor was predicted to be, using the long-term transition probabilities, ~93% for non-smokers, and ~92.5% for smokers. 
 
 Now, using the demographic of policyholders given in the dataset, it was calculated that the average savings SuperLife would have made per policy would have been 2.5% with the proposed product, if it had been implemented 20 years ago. This would have allowed SuperLife to either reduce premiums, or maintain the same level of premiums, and have 2.5% more margin per policy. Projecting into the future for 20 years, there is a trend in the proportion of sum insured, seen in [Appendix O](<Appendices/Appendix O.png>), and it was calculated that if this trend continues, that SuperLife will save up to 3-4% per policy on average. 
+
+Evidently, Lifesavers Consultancy integrated cross subdisation due to the varying risk in mortality pool of policyholders whereby ultimately a proportion of policyholders may pay more than true cost of risk and other policyholders pay less, to create a more equitable and competitive product through obtaining the average. As a result, this achieves more profit for SuperLife from a higher sum insured due to the higher margins.
 
 ## Risk and Risk Mitigation
 The program risk map displays the most likely and impactful risk we identified for this project. Since these risks can greatly affect mortality savings, profitability and longevity of 9 policyholders, they must be identified and mitigated so that benefits of our product are not diminished. 
