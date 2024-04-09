@@ -117,7 +117,7 @@ The results show that with the implementation of the program, the mortality will
 
 This mortality saving can be projected into the future (20-year projection), using linear regression to project new policyholders and mortality projections given in the mortality table. As shown in [Appendix L](<Appendices/Appendix L.png>), SuperLife, using our intervention program will still maintain a positive mortality saving to an even greater extent, due to higher numbers of policyholders resulting in more savings from intervention reducing mortality costs by 17.4% average annually. [[calculations](<mortality cost payout projection & sensitivity test.xlsx>)]
 
-### Premium Pricing [[calculations](<Cost Savings.xlsx>)]
+### Premium Pricing [[calculations](<cost savings.xlsx>)]
 To calculate the economic benefits of the proposed product, the policyholders were split into four groups, which were:
 1. Non-smokers, whole life
 2. Non-smokers, 20-year term
