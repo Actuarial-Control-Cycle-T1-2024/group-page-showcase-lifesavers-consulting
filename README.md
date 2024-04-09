@@ -100,7 +100,7 @@ As demonstrated through the visualisation, all policyholders are assumed to begi
 ### Interest Rate Projection [[code](<interest rate forecasting.R>)]
 Proven from precedent literature reviews, the Autoregressive Integrated Moving Average (ARIMA) model has shown its effectiveness in forecasting inflation and interest rates in future using past datasets. The modelling can be seen in [Appendix E](<Appendices/Appendix E.png>) and [F](<Appendices/Appendix F.png>). From the model, it can be derived that the long-term interest rate is 4.85% p.a., which will be integrated in Lifesavers Consultancy’s pricing model. 
 
-### Mortality Saving [[code](<4001 code Zihao.r>)]
+### Mortality Saving [[code](<Exploratory data analysis, grouping, mortality rates of cohorts, mortality reduction rates R code>)]
 The mortality savings are calculated through the implementation of Lifesavers Consultancy’s intervention program on the already existing inforce dataset with a 20-year interval from the year 2004 to 2023. Using the inforce data set, the policyholders are grouped into age groups from 21-30, 31-40, 41-50 and onwards, and then further grouped by their smoking status. Smoking status is an important factor due to the mortality of smokers being drastically 
 different from non-smokers (0.39 vs 0.03 for aged 61-70), especially in older age groups as indicated in [Appendix G](<Appendices/Appendix G.png>).
 
