@@ -13,6 +13,8 @@ The main report can be found below, with references to the accompanying code and
 
 If you would like to see the main report in its website form, please click [here](https://actuarial-control-cycle-t1-2024.github.io/group-page-showcase-lifesavers-consulting/).
 
+Our team would also like to express our gratitude to Dr. Xiao Xu (PhD, FSA, FIAA, CERA, CFA, FRM, CA, CPA), our Actuarial Control Cycle Lecturer, for your mentorship and guidance during the project development.
+
 ---
 
 ## Problem Statement
